@@ -1,5 +1,7 @@
 div {
-  text-align: center;
   max-width: 800px;
   justify-content: center;
+  align-items: center;
+  text-align: left;
+  overflow-wrap: break-word;
 }
