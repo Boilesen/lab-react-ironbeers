@@ -13,6 +13,7 @@ const App = (props) => {
   return (
     <Card titulo="BREJA" color="#f28e1c">
       <div>
+        <Header />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/beers" component={Beers} />
